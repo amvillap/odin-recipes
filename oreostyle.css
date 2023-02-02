@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+.oreopic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%; 
+}
+.oreorecipe {
+    text-align: center;
+}

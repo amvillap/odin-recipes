@@ -1,0 +1,70 @@
+.navbar {
+    display: flex; 
+}
+.heading { 
+    text-align:center;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+
+}
+.navbar div {
+    font-size: 20px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    padding: 10px; 
+}
+
+.navbar .logo {
+    margin-right: auto;
+    font-size:30px; 
+    max-width: 200px;  
+    text-align: center; 
+    color: white;
+}
+
+ul {
+    list-style-type: none; 
+}
+html {
+    background-color:rgb(174, 194 , 198) ;
+}
+.recipe-link {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px yellow; 
+    flex: auto; 
+}
+.hamroll {
+    display: flex;
+    flex-direction: column; 
+    
+    border: solid black 5px;  
+}
+
+.hamroll a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    align-items: center; 
+}
+.hamroll img {
+    align-items: center;
+}
+
+
+.oreo {
+    border: 5px solid black; 
+}
+
+.recipe-link .hamroll img {
+    width: 250px; 
+    
+}
+
+a:link {
+    text-decoration:none;
+    color: black; 
+}
+.logo a:visited {
+    text-decoration: none;
+    color: white; 
+}
